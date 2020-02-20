@@ -1,0 +1,491 @@
+body{
+    background-image: url("../img/BG.png");
+}
+#undercover{
+    background-image: url("../img/lampp photo.png");
+    background-size: cover;
+}
+.undercover__title{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 490px;
+    margin-top: 80px;
+}
+.undercover__title h1{
+    font-family: "Playfair+Display+SC";
+    font-size: 60px;
+    color: #b69b67;
+}
+.undercover__subtitle{
+    font-family: "Ubuntu";
+    text-align: right;
+    font-size: 30px;
+    color: #b4b4b4;
+}
+.undecover__text, .footer__img{
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 260px;
+}
+.undercover__scroll{
+    margin: 0 auto;
+    text-align: center;
+    cursor: pointer;
+}
+.undercover__scroll p{
+    margin-bottom: 0;
+    margin-top: 160px;
+}
+#services h1, #contacts h1{
+    text-align: center;
+    font-size: 60px;
+    color: #b4b4b4;
+    margin-top: 190px;
+    font-family: "Playfair+Display+SC";
+    font-weight: bold;
+}
+.tabs{
+    display: flex;
+    flex-direction: column;
+}
+.services__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.tab{
+    font-size: 20px;
+    color:  #b4b4b4;
+    margin-bottom: 50px;
+    cursor: pointer;
+    font-family: "Ubuntu";
+    font-weight: 300;
+}
+.tab_item_content__title-first{
+    background-image:url("../img/web design illustration.png"), url("../img/BG.png");
+    background-blend-mode: color-dodge;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 500px;
+}
+.tab_item_subtitle{
+    font-family: "Ubuntu";
+    color:  #b4b4b4;
+}
+.tab_content{
+    max-width: 800px;
+    width: 100%;
+   
+}
+.tab_item_content__title-second{
+    background-image:url("../img/logo design illustration.png"), url("../img/BG.png");
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    height: 500px;
+}
+.tab_item_content__title-third{
+    background-image:url("../img/ui illustration.png"), url("../img/BG.png");
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 500px;
+}
+.item_subtitle-position{
+    padding-top: 150px;
+}
+.item_subtitle-position-second{
+    padding-top: 70px;
+}
+.tab_item_content__title-fourth{
+    background-image: url("../img/photography illustration.png"), url("../img/BG.png");
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 500px;
+}
+.item_subtitle-position-fourth{
+    padding-top: 250px;
+}
+.feedbacks__wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.feedbacks__wrapper h3{
+    font-family: "Playfair+Display+SC";
+    font-weight: bold;
+    font-size: 50px;
+    color: #b4b4b4;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.feedback__position{
+    display: flex;
+    color: #b4b4b4;
+    font-size: 16px;
+}
+.feedback span{
+    font-family: "Ubuntu";
+    display: block;
+    text-align: end;
+    font-size: 20px;
+    color: #b69b67;
+}
+.feedback p{
+    font-family: "Ubuntu";
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.feedbacks__click button{
+    border: none;
+    width: 250px;
+    background-color: #2c2c2c;
+    color: #939393;
+    font-size: 12px;
+    font-family: "Ubuntu";
+}
+.feedbacks__click, .form__section-button{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.form__input{
+    max-width: 500px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    border: 1px solid #939393;
+    background-color: #2c2c2c;
+}
+.form__textarea{
+    max-width: 500px;
+    width: 100%;
+    height: 200px;
+    padding-left: 15px;
+    border: 1px solid #939393;
+    background-color: #2c2c2c;
+}
+.form__section-button--style{
+    max-width: 200px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    background-color: #b69b67;
+    color: #303030;
+    font-size: 20px;
+    font-family: "Ubuntu";
+}
+.contacts__info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contacts__info__box h5{
+    font-size: 20px;
+    color: #b69b67;
+    text-align: center;
+    font-family: "Ubuntu";
+    font-weight: 300;
+}
+.contacts__info__box{
+    text-align: center;
+}
+.contacts__info__box p{
+    color: #939393;
+    font-size: 18px;
+    margin-bottom: 0;
+    font-family: "Ubuntu";
+    font-weight: 300;
+}
+#contacts{
+    background-image: url("../img/photo-1469178066045-855bb6994cc0.png"), url("../img/BG.png");
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;;
+}
+.footer__img{
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
+#color{
+    color:  #b4b4b4;
+    font-size: 12px;
+}
+.footer__menu{
+    margin: 0 auto;
+}
+#footer{
+    background-image: url("../img/photo-1447952141348-d97b9d64123f.png"), url("../img/BG.png");
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 790px;
+}
+.conteiner{
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
+.header__body{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+.header__list li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.header__list{
+    display: flex;
+   flex-direction: column;
+   /* background-image: url("../img/photo-1414776714796-38f4edcc6562.png"), url("../img/BG.png");
+   background-blend-mode: lighten;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center; */
+   margin-top: 150px;
+   padding-left: 0;
+}
+.header__link{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+#decoration{
+    font-family: "Ubuntu";
+    font-size: 20px;
+    color: #b4b4b4;
+    font-weight: 300;
+}
+    .header__burger{
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        cursor: pointer;
+        margin-left: 50px;
+    }
+    .header__burger::before, 
+    .header__burger::after{
+        content: "";
+        position: absolute;
+        background-color: #b4b4b4;
+        width: 100%;
+        height: 1px;
+        left: 0;
+        transition: all 0.5s ease 0s;
+    }
+    .header__burger::before{
+        top: 0;
+    }
+    .header__burger::after{
+       bottom: 0;
+    }
+    .header__burger span{
+        position: absolute;
+        background-color: #b4b4b4;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        top: 9px;
+    }
+    .header__menu{
+        display: none;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .header::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 80px;
+        z-index: 3;
+    }
+    .header__burger.active::before{
+        transform: rotate(45deg);
+        top: 9px;       
+    }
+    .header__burger.active::after{
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+    .header__burger.active span{
+        transform: scale(0);
+        transition: all 0.5s ease 0s;
+    }
+    .header__menu.active{
+        display: block;
+        transition: all 0.5s ease 0s;
+    }
+    #menu__style{
+        font-size: 50px;
+        text-align: center;
+        color: #b4b4b4;
+        font-family: "Playfair+Display+SC";
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .list__box{
+        display: flex;
+        background-image: url("../img/photo-1414776714796-38f4edcc6562.png"), url("../img/BG.png");
+        background-blend-mode: lighten;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        height: 400px;
+    }
+    .list__position{
+        margin-left: 5%;
+    }
+    .tab.active{
+        color: #b69b67;
+        border-bottom: 1px solid #454545;
+        font-size: 36px;
+        border-top: 2px solid #b69b67;
+        transition: all 0.5s ease 0s;
+    }
+    /* .feedbacks__click button:hover{
+        background: radial-gradient(#b69b67,  #303030);
+        transition: all 0.5s ease 0s;
+    } */
+    #txt__decoration{
+        text-decoration: none;
+        font-size: 20px;
+        color: #454545;
+    }
+    .scroll__anchor:hover{
+        text-decoration: none;
+    }
+    #decoration:hover{
+        border-top: 2px solid #b69b67;
+        transition: all 0.5s ease-in 0s;
+        color: #b69b67;
+        text-decoration: none;
+    }
+    .scroll__anchor img:hover{
+        transform: translate(0,20px);
+        transition: 0.5s ease-in-out;
+    }
+    #txt__decoration:hover{
+        color: #b69b67;
+        transition: 0.5s ease-in-out;
+    }
+    .footer__conteiner{
+        max-width: 1000px;
+    }
+    #color:hover{
+        border-top: 1px solid #b69b67;
+        transition: all 0.3s ease-in 0s;
+        color: #b69b67;
+    }
+    .form__section-button--style:hover{
+        background-color: #2c2c2c;
+        color: #b69b67;
+        transform: scale(1.2,1.2);
+        border-radius: 50% 50%;
+        transition: all 0.8s ease-in 0s;
+    }
+    .form__section-button--style:focus{
+        outline: none;
+    }
+    .form__textarea:focus, .form__input:focus{
+        outline-color: #b69b67;
+    }
+    :focus::-webkit-input-placeholder {color: transparent}
+    :focus::-moz-placeholder          {color: transparent}
+    :focus:-moz-placeholder           {color: transparent}
+    :focus:-ms-input-placeholder      {color: transparent}
+    @media screen and (max-width: 850px){
+        .services__wrapper{
+            display: block;
+        }
+        .tabs{
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .tab{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            margin-bottom: 100px;
+        }
+        .tab_item{
+            text-align: center;
+        }
+        .item_subtitle-position, .item_subtitle-position-fourth, .item_subtitle-position-fourth{
+            padding-top: 0;
+        }
+        .feedbacks__wrapper{
+            flex-direction: column;
+        }
+        .section__form{
+            text-align: center;
+            margin: 0 auto;
+        }
+        .contact-us{
+            margin-top: 50px;
+        }
+        .footer__conteiner{
+            display: none;
+        }
+    }
+    @media screen and (max-width: 700px){
+        .contacts__info{
+            flex-direction: column;
+        }
+        .contacts__info__box{
+            margin-bottom: 40px;
+        }
+        .tab{
+            font-size: 16px;
+        }
+        .tab.active{
+            font-size: 20px;
+        }
+    }
+    @media screen and (max-width: 500px){
+        .undercover__title h1 {
+            font-size: 40px;
+        }
+        .undercover__subtitle {
+            font-size: 20px;
+        }
+    }
+    @media screen and (max-width: 460px){
+        .feedback__position{
+            flex-direction: column;
+            align-items: center;
+        }
+        .header__burger{
+            margin-left: 0px;
+        }
+    }
+    @media screen and (max-width: 380px){
+        .tab{
+            font-size: 12px;
+        }
+        .tab.active{
+            font-size: 14px;
+        }
+        #services h1, #contacts h1, .feedbacks__wrapper h3{
+            font-size: 40px;
+        }
+    }
