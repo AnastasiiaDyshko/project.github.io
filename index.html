@@ -13,6 +13,9 @@
     <link
         href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:400,700|Ubuntu:300,300i,400,500,500i&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1\slick\slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick-1.8.1\slick\slick-theme.css" />
+    <link rel="shortcut icon" href="img\black-hole.png" type="image/x-icon">
     <title>Undercover</title>
 </head>
 
@@ -54,10 +57,6 @@
                                     <ul class="header__list">
                                         <li><a class="header-link" id="decoration" data-target="anchor"
                                                 href="#contacts">CONTACTS</a></li>
-                                        <li><a class="header-link" id="decoration" data-target="anchor" href="#">SIGN
-                                                UP</a></li>
-                                        <li><a class="header-link" id="decoration" data-target="anchor" href="#">SIGN
-                                                IN</a></li>
                                         <li><a class="header-link" id="decoration" data-target="anchor" href="#">SEND
                                                 MESSAGE</a></li>
                                     </ul>
@@ -139,50 +138,146 @@
             </div>
         </div>
     </section>
-    <section id="portfolio">
+    <section id="portfolio" class="conteiner-fluid">
+        <h1>PORTFOLIO</h1>
+        <div class="row">
+            <div class="portfolio__list align-items-center col-sm-12 col-lg-3 col-xl-3 col-md-3">
+                <ul>
+                    <li data-filter="*">All</li>
+                    <li data-filter=".personal-design">Personal Design</li>
+                    <li data-filter=".design-lab">Design Lab</li>
+                    <li data-filter=".print-design">Print Design</li>
+                    <li data-filter=".logo-design">Logo Design</li>
+                </ul>
+            </div>
+            <div class="portfolio__items no-gutters col-sm-12 col-lg-9 col-xl-9 col-md-9">
+                <div class="portfolio__items--item col-md-4 col-lg-3 col-xl-3 col-sm-6 personal-design"
+                    data-category="personal-design">
+                    <img class="img-fluid"
+                        src="img\2-portfolio-website-designs-inspiration-tomerlerner.com_-768x446.png"
+                        alt="personal-design">
+                </div>
+                <div class="portfolio__items--item col-md-4 col-lg-3 col-xl-3 col-sm-6 col-12 personal-design"
+                    data-category="personal-design">
+                    <img class="img-fluid" src="img\5-web-design-portfolios-inspiration-tombiskup.com_.jpg"
+                        alt="personal-design">
+                </div>
+                <div class="portfolio__items--item col-md-4 col-lg-3 col-xl-3 col-sm-6 col-12 personal-design"
+                    data-category="personal-design">
+                    <img class="img-fluid" src="img\7-personal-portfolio-design-inspiration-seanhalpin.io_-768x439.png"
+                        alt="personal-design">
+                </div>
+                <div class="portfolio__items--item col-md-4 col-lg-3 col-xl-3 col-sm-6 col-12 personal-design"
+                    data-category="personal-design">
+                    <img class="img-fluid"
+                        src="img\18-creative-design-portfolios-inspiration-supercrowds.co_-768x473.jpg"
+                        alt="personal-design">
+                </div>
+                <div class="portfolio__items--item col-md-4 col-lg-3 col-xl-3 col-sm-6 col-12 personal-design"
+                    data-category="personal-design">
+                    <img class="img-fluid" src="img\15-freelance-designer-portfolio-danielspatzek.com_-768x454.png"
+                        alt="personal-design">
+                </div>
+                <div class="portfolio__items--item col-md-4 col-lg-3 col-xl-3 col-sm-6 col-12 design-lab"
+                    data-category="design-lab">
+                    <img class="img-fluid" src="img\10-design-portfolios-inspiration-smallstudio.com_.au_..jpg"
+                        alt="design-lab">
+                </div>
+                <div class="portfolio__items--item col-md-4 col-lg-3 col-xl-3 col-sm-6 col-12 design-lab"
+                    data-category="design-lab">
+                    <img class="img-fluid" src="img\11-design-portfolio-laurenwickware.com_.jpg" alt="design-lab">
+                </div>
+                <div class="portfolio__items--item col-md-4 col-lg-3 col-xl-3 col-sm-6 col-12 design-lab"
+                    data-category="design-lab">
+                    <img class="img-fluid" src="img\13-web-design-portfolios-inspiration-bleed.com_.jpg"
+                        alt="design-lab">
+                </div>
+                <div class="portfolio__items--item col-md-4 col-lg-3 col-xl-3 col-sm-6 col-12 design-lab"
+                    data-category="design-lab">
+                    <img class="img-fluid" src="img\17-company-website-design-portfolio-madeinhaus.com_-768x477.png"
+                        alt="design-lab">
+                </div>
+                <div class="portfolio__items--item col-md-4 col-lg-3 col-xl-3 col-sm-6 col-12 print-design"
+                    data-category="print-design">
+                    <img class="img-fluid" src="img\header-for-textile-design.jpg" alt="print-design">
+                </div>
+                <div class="portfolio__items--item col-md-4 col-lg-3 col-xl-3 col-sm-6 col-12 print-design"
+                    data-category="print-design">
+                    <img class="img-fluid"
+                        src="img\vector-seamless-pattern-indian-floral-backdrop-paisley-fashion-style-design-fabric-roses-provence-style-91075939.jpg"
+                        alt="print-design">
+                </div>
+                <div class="portfolio__items--item col-md-4 col-lg-3 col-xl-3 col-sm-6 col-12 logo-design"
+                    data-category="logo-design">
+                    <img class="img-fluid" src="img\Buffalo.jpg" alt="logo-design">
+                </div>
+            </div>
+        </div>
 
     </section>
     <section id="feedbacks">
-        <div class="conteiner-fluid">
+        <div class="conteiner" id="feedback__conteiner">
             <div class="feedbacks__wrapper">
                 <div class="feedbacks__box">
                     <h3>FEEDBACKS</h3>
-                    <div class="feedback">
-                        <div class="feedback__position">
-                            <img class="img-fluid" src="img\photo-1422568374078-27d3842ba676.png">
-                            <p>Working with thise guys was an astonishing<br> expirience for me. I was pleased with
-                                theyre<br>
-                                work.
-                            </p>
+                    <div class="slick-vertical">
+                        <div>
+                            <div class="feedback">
+                                <div class="feedback__position">
+                                    <img class="img-fluid" src="img\photo-1431727460781-fa165e66bffa.png">
+                                    <p>Working with thise guys was an astonishing<br> expirience for me. I was pleased
+                                        with
+                                        theyre<br>
+                                        work.
+                                    </p>
+                                </div>
+                                <img class="img-fluid" src="img\1px line.png">
+                                <span>DANIEL ROB</span>
+                            </div>
                         </div>
-                        <img class="img-fluid" src="img\1px line.png">
-                        <span>SARAH ROBINSON</span>
-                    </div>
-                    <div class="feedback">
-                        <div class="feedback__position">
-                            <img class="img-fluid" src="img\photo-1431727460781-fa165e66bffa.png">
-                            <p>At first I was not sure about this team but I<br> decided to give them a chance. And
-                                they<br>
-                                didn't
-                                let me down. Good job, guys.
-                            </p>
+                        <div>
+                            <div class="feedback">
+                                <div class="feedback__position">
+                                    <img class="img-fluid" src="img\photo-1422568374078-27d3842ba676.png">
+                                    <p>Working with thise guys was an astonishing<br> expirience for me. I was pleased
+                                        with
+                                        theyre<br>
+                                        work.
+                                    </p>
+                                </div>
+                                <img class="img-fluid" src="img\1px line.png">
+                                <span>SARAH ROBINSON</span>
+                            </div>
                         </div>
-                        <img class="img-fluid" src="img\1px line.png">
-                        <span>NATHAN PERISH</span>
-                    </div>
-                    <div class="feedback">
-                        <div class="feedback__position">
-                            <img class="img-fluid" src="img\photo-1437915015400-137312b61975.png">
-                            <p>Working with thise guys was an astonishing<br> expirience for me. I was pleased with
-                                theyre<br>
-                                work.
-                            </p>
+                        <div>
+                            <div class="feedback">
+                                <div class="feedback__position">
+                                    <img class="img-fluid" src="img\photo-1431727460781-fa165e66bffa.png">
+                                    <p>At first I was not sure about this team but I<br> decided to give them a chance.
+                                        And
+                                        they<br>
+                                        didn't
+                                        let me down. Good job, guys.
+                                    </p>
+                                </div>
+                                <img class="img-fluid" src="img\1px line.png">
+                                <span>NATHAN PERISH</span>
+                            </div>
                         </div>
-                        <img class="img-fluid" src="img\1px line.png">
-                        <span>AMY JONES</span>
-                    </div>
-                    <div class="feedbacks__click">
-                        <button>CLICK HERE FOR MORE FEEDBACKS</button>
+                        <div>
+                            <div class="feedback">
+                                <div class="feedback__position">
+                                    <img class="img-fluid" src="img\photo-1437915015400-137312b61975.png">
+                                    <p>Working with thise guys was an astonishing<br> expirience for me. I was pleased
+                                        with
+                                        theyre<br>
+                                        work.
+                                    </p>
+                                </div>
+                                <img class="img-fluid" src="img\1px line.png">
+                                <span>AMY JONES</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="contact-us">
@@ -244,23 +339,26 @@
                 </button>
                 <div id="my-nav" class="collapse navbar-collapse">
                     <ul class="navbar-nav footer__menu">
-                        <li class="nav-item"><a class="nav-link" id="color" href="#">SERVICES</a></li>
-                        <li class="nav-item"><a class="nav-link" id="color" href="#projects">PORTFOLIO</a></li>
-                        <li class="nav-item"><a class="nav-link" id="color" href="#news">FEEDBACKS</a></li>
-                        <li class="nav-item"><a class="nav-link" id="color" href="#section__contact">CONTACT US</a>
+                        <li class="nav-item"><a class="nav-link" id="color" data-target="anchor" href="#">SERVICES</a>
                         </li>
-                        <li class="nav-item"><a class="nav-link" id="color" href="#">CONTACT</a></li>
-                        <li class="nav-item"><a class="nav-link" id="color" href="#projects">FACEBOOK</a></li>
-                        <li class="nav-item"><a class="nav-link" id="color" href="#news">LINKEDIN</a></li>
-                        <li class="nav-item"><a class="nav-link" id="color" href="#section__contact">TWITTER</a>
+                        <li class="nav-item"><a class="nav-link" id="color" data-target="anchor"
+                                href="#ortfolio">PORTFOLIO</a></li>
+                        <li class="nav-item"><a class="nav-link" id="color" data-target="anchor"
+                                href="#feedbacks">FEEDBACKS</a></li>
+                        <li class="nav-item"><a class="nav-link" id="color" data-target="anchor"
+                                href="#feedbacks">CONTACT US</a>
                         </li>
-                        <li class="nav-item"><a class="nav-link" id="color" href="#section__contact">GOOGLE+</a>
+                        <li class="nav-item"><a class="nav-link" id="color" data-target="anchor"
+                                href="#contacts">CONTACT</a></li>
+                        <li class="nav-item"><a class="nav-link" id="color" data-target="anchor"
+                                href="https://www.facebook.com/">FACEBOOK</a></li>
+                        <li class="nav-item"><a class="nav-link" id="color" data-target="anchor" href="">LINKEDIN</a>
                         </li>
-                        <li class="nav-item"><a class="nav-link" id="color" href="#section__contact">SIGN UP</a>
+                        <li class="nav-item"><a class="nav-link" id="color" data-target="anchor"
+                                href="#https://twitter.com/">TWITTER</a>
                         </li>
-                        <li class="nav-item"><a class="nav-link" id="color" href="#section__contact">SIGN IN</a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link" id="color" href="#section__contact">SEARCH</a>
+                        <li class="nav-item"><a class="nav-link" id="color" data-target="anchor"
+                                href="https://plus.google.com/">GOOGLE+</a>
                         </li>
                     </ul>
                 </div>
@@ -274,6 +372,8 @@
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="slick-1.8.1\slick\slick.min.js"></script>
+    <script type="text/javascript" src="isotope\isotope.pkgd.min.js"></script>
     <script>
         $(".tab_item").not(":first").hide();
         $(".services__wrapper .tab").click(function () {
@@ -311,6 +411,41 @@
             //     event.preventDefault();
             // })
         })
+    </script>
+    <script>
+        $(function () {
+            $('.slick-vertical').slick({
+                vertical: true,
+                verticalSwiping: true,
+                slidesToShow: 3,
+                autoplay: true,
+                prevArrow: '<img src="img/upp.png">',
+                nextArrow: '<img src="img/downn.png">'
+            });
+        });
+    </script>
+    <script>
+        $(window).ready(function () {
+
+            let $items = $('.portfolio__items');
+            $items.isotope({
+                filter: '*',
+            });
+
+            $('ul li').click(function () {
+                $('ul .active').removeClass('active');
+                $(this).addClass('active');
+
+                let selector = $(this).attr('data-filter');
+                $items.isotope({
+                    filter: selector,
+                    animationOptions: {
+                        duration: 500,
+                        animationEngine: "jquery"
+                    }
+                });
+            });
+        });
     </script>
 </body>
 
